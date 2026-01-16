@@ -13,13 +13,11 @@ cd ..                # volta ao diretório anterior
 cd ~                 # vai para o diretório inicial (home)
 
 ```
-## Listar arquivos - `ls`
-```ls
-ls -l (detalhamento de itens presentes no diretorio)
-ls -a (mostra arquivos ocultos)
-ls -la (usando 2 parametros juntos)
-ls -lh (facil de ver para os humanos)
-ls -ltr (listagem ordenada pela data de modificação)
+ls -l                # detalhamento de itens no diretório
+ls -a                # mostra arquivos ocultos
+ls -la               # combina parâmetros
+ls -lh               # tamanho legível para humanos
+ls -ltr              # ordenado por data de modificação
 ```
 ## Criar arquivo - `touch`
 ```touch teste.txt (Cria arquivos)``` 
