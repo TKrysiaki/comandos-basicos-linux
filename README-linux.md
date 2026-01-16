@@ -8,14 +8,14 @@
 ## Mudar diretório — `cd`
 
 ```bash
-cd Documentos
-cd ..
-cd ~
+cd documentos (entra no diretório "documentos"
+cd .. (volta ao diretório anterior)
+cd ~ (volta ao diretório inicial)
 ```
 ## Listar arquivos - `ls`
 ```ls
-ls -l
-ls -a
+ls -l (Detalhamento de itens presentes no diretório)
+ls -a (Mostra arquivos ocultos)
 ls -la
 ls -lh
 ls -ltr
