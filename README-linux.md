@@ -1,16 +1,17 @@
 # 🐧 Comandos Linux — Terminal
 
-## O que é um comando
+## ❓ O que é um comando
 - Comando = texto digitado no terminal que executa uma ação no sistema.
 
 ---
 
-## Mudar diretório — `cd`
+## 📁 Mudar diretório — `cd`
 
 ```bash
-cd documentos (entra no diretório "documentos")
-cd .. (volta ao diretório anterior)
-cd ~ (volta ao diretório inicial)
+cd Documentos        # entra no diretório "Documentos"
+cd ..                # volta ao diretório anterior
+cd ~                 # vai para o diretório inicial (home)
+
 ```
 ## Listar arquivos - `ls`
 ```ls
