@@ -10,7 +10,7 @@
 ```bash
 cd Documentos
 cd ..
-cd ~```
+cd ~
 
 ## Listar arquivos - `ls`
 ```ls
