@@ -11,3 +11,11 @@
 cd Documentos
 cd ..
 cd ~```
+
+## Listar arquivos - `ls`
+```ls
+ls -l
+ls -a
+ls -la
+ls -lh
+ls -ltr```
