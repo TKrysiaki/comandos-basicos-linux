@@ -11,6 +11,7 @@
 cd Documentos
 cd ..
 cd ~
+```
 
 ## Listar arquivos - `ls`
 ```ls
