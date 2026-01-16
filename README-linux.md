@@ -12,8 +12,7 @@ cd Documentos        # entra no diretório "Documentos"
 cd ..                # volta ao diretório anterior
 cd ~                 # vai para o diretório inicial (home)
 
-```
-ls -l                # detalhamento de itens no diretório
+```ls -l                # detalhamento de itens no diretório
 ls -a                # mostra arquivos ocultos
 ls -la               # combina parâmetros
 ls -lh               # tamanho legível para humanos
