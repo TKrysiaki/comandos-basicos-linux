@@ -8,7 +8,7 @@
 ## Mudar diretório — `cd`
 
 ```bash
-cd documentos (entra no diretório "documentos"
+cd documentos (entra no diretório "documentos")
 cd .. (volta ao diretório anterior)
 cd ~ (volta ao diretório inicial)
 ```
@@ -16,12 +16,12 @@ cd ~ (volta ao diretório inicial)
 ```ls
 ls -l (Detalhamento de itens presentes no diretório)
 ls -a (Mostra arquivos ocultos)
-ls -la
-ls -lh
-ls -ltr
+ls -la (Usando 2 parâmetros juntos)
+ls -lh (Fácil de ver para os humanos)
+ls -ltr (Listagem ordenada pela data de modificação)
 ```
 ## Criar arquivo - `touch`
-```touch teste.txt```
+```touch teste.txt (Cria arquivos)``` 
 ## Verconteúdo - `cat`
 ```cat arquivo.txt
 cat arquivo1.txt arquivo2.txt
