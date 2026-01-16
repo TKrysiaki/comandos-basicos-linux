@@ -14,10 +14,10 @@ cd ~ (volta ao diretório inicial)
 ```
 ## Listar arquivos - `ls`
 ```ls
-ls -l (detalhamento de itens presentes no diretório)
+ls -l (detalhamento de itens presentes no diretorio)
 ls -a (mostra arquivos ocultos)
-ls -la (usando 2 parâmetros juntos)
-ls -lh (fácil de ver para os humanos)
+ls -la (usando 2 parametros juntos)
+ls -lh (facil de ver para os humanos)
 ls -ltr (listagem ordenada pela data de modificação)
 ```
 ## Criar arquivo - `touch`
