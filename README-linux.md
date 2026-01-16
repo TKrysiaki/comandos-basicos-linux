@@ -14,43 +14,43 @@ cd ~ (volta ao diretório inicial)
 ```
 ## Listar arquivos - `ls`
 ```ls
-ls -l (Detalhamento de itens presentes no diretório)
-ls -a (Mostra arquivos ocultos)
-ls -la (Usando 2 parâmetros juntos)
-ls -lh (Fácil de ver para os humanos)
-ls -ltr (Listagem ordenada pela data de modificação)
+ls -l (detalhamento de itens presentes no diretório)
+ls -a (mostra arquivos ocultos)
+ls -la (usando 2 parâmetros juntos)
+ls -lh (fácil de ver para os humanos)
+ls -ltr (listagem ordenada pela data de modificação)
 ```
 ## Criar arquivo - `touch`
 ```touch teste.txt (Cria arquivos)``` 
-## Verconteúdo - `cat`
-```cat arquivo.txt
-cat arquivo1.txt arquivo2.txt
-cat arquivo1.txt arquivo2.txt > arquivo3.txt
-cat > nome.txt
+## Ver conteúdo - `cat`
+```cat arquivo.txt (mostra o conteúdo do arquivo)
+cat arquivo1.txt arquivo2.txt (mostra o conteudo dos 2 arquivos)
+cat arquivo1.txt arquivo2.txt > arquivo3.txt (junta 2 arquivos em 1)
+cat > nome.txt (permite digitar conteúdo no arquivo) "Use Ctrl + C para cancelar"
 ```
-## Criar pastas - `mkdir`
-```mkdir pasta
-mkdir dir1 dir2 dir3
-mkdir -p dir3/projetos/linux/aula1
+## Criar diretórios - `mkdir`
+```mkdir arquivo (cria um diretório)
+mkdir dir1 dir2 dir3 (cria vários diretórios)
+mkdir -p dir3/projetos/linux/aula1 (cria toda a estrutura de pastas de uma vez)
 ```
 ## Remover arquivos e pastas - `rm`
-```rm arquivo.txt
-rm -i arquivo.txt
-rm -rf pasta
-rm -d pasta
-rmdir pasta
+```rm arquivo.txt (remove o arquivo)
+rm -i arquivo.txt (confirma a ação)
+rm -rf pasta (remove diretórios) "COM CUIDADO"
+rm -d pasta (remove diretórios vazios)
+rmdir arquivo (remove arquivo)
 ```
 ## Copiar arquivos - `cp`
-```cp arquivo1.txt arquivo2.txt
-cp -r dir1 dir2
-cp arquivo1.txt dir1
-cp -r 10 20
+```cp arquivo1.txt arquivo2.txt (copia o aquivo 1 para o arquivo 2)
+cp -r dir1 dir2 (Copia arquivos do dir1 para o dir2)
+cp arquivo1.txt dir1 (copia o arquivo1 para o dir1)
+cp -r 10 20 (Copia diretorio e arquivos de 10 pra 20)
 ```
 ## Mover ou remover - `mv`
-```mv teste.txt teste1.txt
-mv arquivo.txt /home/tiago/destino
-mv dir1/* dir3/
-mv dir1 dir2
+```mv teste.txt teste1.txt (Copia o conteudo do test.txt para test1.txt e exclui arquivo test.txt)
+mv arquivo.txt /home/tiago/destino (move o arquivo selecionado para a pasta destino)
+mv dir1/* dir3/ (move tudo do dir1 para o dir3)
+mv dir1 dir2 (Muda nome do diretório)
 ```
 ## Atualizar repositórios
 ```sudo apt-get update```
