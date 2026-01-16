@@ -21,8 +21,7 @@ ls -lh
 ls -ltr
 ```
 ## Criar arquivo - `touch`
-```touch teste.txt
-```
+```touch teste.txt```
 ## Verconteúdo - `cat`
 ```cat arquivo.txt
 cat arquivo1.txt arquivo2.txt
@@ -54,14 +53,10 @@ mv dir1/* dir3/
 mv dir1 dir2
 ```
 ## Atualizar repositórios
-```sudo apt-get update
-```
+```sudo apt-get update```
 ## Atualizar pactoes
-```sudo apt-get upgrade
-```
+```sudo apt-get upgrade```
 ## Instalar pacote
-```sudo apt-get install nome-do-pacote
-```
+```sudo apt-get install nome-do-pacote```
 ## Remover pacote
-```sudo apt-get purge nome-do-pacote
-```
+```sudo apt-get purge nome-do-pacote```
